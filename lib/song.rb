@@ -37,7 +37,7 @@ class Song
     name_and_artist = song.split(" - ")
     artist_name = name_and_artist[0]
     name = name[1]
-    artist_name.chomp
+    artist_name.chomp(".mp3")
   end
   
   def self.all
