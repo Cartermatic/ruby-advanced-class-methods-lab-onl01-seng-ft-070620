@@ -39,7 +39,7 @@ class Song
     name = name_and_artist[1].chomp(".mp3")
     song = self.new
     song.name = name
-    artist_name = song.name
+    song.artist_name = artist_name
     
   end
   
