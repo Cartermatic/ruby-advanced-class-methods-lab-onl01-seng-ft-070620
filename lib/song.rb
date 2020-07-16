@@ -34,10 +34,10 @@ class Song
   end
   
   def self.new_from_filename(song)
-    name_and_artist = song.split(/[" - ",.mp3]/)
+    name_and_artist = song.split(" - ")
     artist_name = name_and_artist[0]
     name = name_and_artist[1]
-    
+    name.delete(".mp3")
     
   end
   
