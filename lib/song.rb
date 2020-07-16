@@ -38,6 +38,7 @@ class Song
     artist_name = name_and_artist[0]
     name = name[1]
     artist_name.chomp(".mp3")
+    name_and_artist
   end
   
   def self.all
